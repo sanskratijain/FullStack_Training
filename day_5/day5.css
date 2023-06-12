@@ -1,0 +1,31 @@
+* {
+    margin: 10%;
+}
+
+body {
+    color: cadetblue;
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first {
+    color: black;
+}
+
+#list {
+    color: beige;
+    background-color: brown;
+}
+
+input[type="text"] {
+    color: darkgreen;
+}
+
+a[href="https://Upflairs.com"] {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
