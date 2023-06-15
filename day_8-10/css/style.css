@@ -104,6 +104,7 @@ a:hover {
     background-color: var(--primaryColor);
     padding: 0.5rem;
     margin: 5px 0px;
+    border-radius: 10px;
 }
 
 .description {
@@ -120,4 +121,73 @@ a:hover {
 
 .showCVButton:hover {
     background: linear-gradient(white, rgb(215, 215, 215));
+}
+
+/* Srvices section */
+.services {
+    margin: 5rem;
+}
+
+.serviceText {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.textSubHeading {
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+
+.textHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.serviceCards {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.serviceCard {
+    background-color: var(--whiteColor);
+    border: 2px solid var(--secondaryColor);
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    padding: 40px;
+}
+
+.serviceCard:hover {
+    border: none;
+    background-color: var(--whiteColor);
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+.serviceIconDiv {
+    color: var(--whiteColor);
+    background-color: var(--primaryColor);
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.serviceIcon {
+    font-size: 3rem;
+}
+
+.serviceTitle {
+    font-size: 1.7rem;
+    margin: 20px 0px;
+}
+
+.serviceFeature {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.serviceFeatureIcon {
+    font-size: 1rem;
+
 }
